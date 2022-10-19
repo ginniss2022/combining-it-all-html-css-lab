@@ -1,12 +1,26 @@
-body{
-    display:flex;
-}
+/*body{*/
+/*    display:flex;*/
+/*}*/
 header{
+    display:flex;
+    flex-direction:row;
     width:100%;
+    justify-content:end;
 }
 main{
+    display:flex;
+    flex-flow:column;
+}
+.h1{
+   display: flex;
+   align-self:center;
+}
+.sunflower{
     display: flex;
-    
-    
+    justify-content:center;
+}
+img{
+    width:60%;
+    align-items:center;
 }
 
